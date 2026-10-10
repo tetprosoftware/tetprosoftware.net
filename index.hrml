@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tết Pro Software | Digital Transformation &amp; Software Solutions</title>
+<meta name="description" content="Tết Pro Software provides custom software development, web and mobile applications, business software, process automation and technology consulting from Hanoi, Vietnam.">
+<link rel="canonical" href="https://www.tetprosoftware.net/">
+<meta name="color-scheme" content="light dark">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Tết Pro Software">
+<meta property="og:url" content="https://www.tetprosoftware.net/">
+<meta property="og:title" content="Tết Pro Software | Digital Transformation & Software Solutions">
+<meta property="og:description" content="Custom software, web and mobile applications, automation and technology consulting from Hanoi, Vietnam.">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Organization","name":"Tết Pro Software","alternateName":"Công ty Cổ phần Phần mềm Tết Pro","url":"https://www.tetprosoftware.net/","email":"lien-he@tetprosoftware.com","address":{"@type":"PostalAddress","streetAddress":"30 Phan Đình Phùng, Ba Đình","addressLocality":"Hà Nội","addressCountry":"VN"},"sameAs":["https://www.tetprosoftware.com/","https://www.facebook.com/tetprosoftware","https://www.instagram.com/tetprosoftware","https://www.threads.com/@tetprosoftware","https://www.tiktok.com/@tetprosoftware","https://www.youtube.com/@tetprosoftware","https://github.com/tetprosoftware","https://www.pinterest.com/tetprosoftware","https://www.linkedin.com/company/tetprosoftware"]}
+</script>
+<style>
+:root{--bg:#f4f6f8;--surface:#fff;--ink:#14181f;--muted:#4a5361;--line:#cfd6df;--accent:#a3231b;--accent-ink:#fff;--soft:#e8ecf1}
+@media(prefers-color-scheme:dark){:root{--bg:#10141a;--surface:#181e27;--ink:#eef1f5;--muted:#aab3c0;--line:#2e3744;--accent:#ff8a7d;--accent-ink:#10141a;--soft:#202835}}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:5rem}
+body{margin:0;background:var(--bg);color:var(--ink);font:1rem/1.65 system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif}
+h1,h2,h3{font-family:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;line-height:1.15;margin:0 0 .6em;font-weight:700;letter-spacing:-.01em}
+h1{font-size:clamp(2.3rem,6vw,4.3rem)}h2{font-size:clamp(1.7rem,3.5vw,2.4rem)}h3{font-size:1.2rem}
+p{margin:0 0 1em;max-width:68ch}a{color:inherit}
+a:focus-visible,button:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.wrap{width:min(1120px,100% - 2.5rem);margin-inline:auto}
+section{padding:clamp(3rem,7vw,5.5rem) 0;border-top:1px solid var(--line)}
+.skip{position:absolute;left:-999px;top:0;background:var(--accent);color:var(--accent-ink);padding:.6rem 1rem;z-index:20}.skip:focus{left:0}
+header{position:sticky;top:0;z-index:10;background:var(--bg);border-bottom:1px solid var(--line)}
+.bar{display:flex;align-items:center;gap:1rem;justify-content:space-between;min-height:4rem;flex-wrap:wrap}
+.brand{font-weight:800;text-decoration:none;font-size:1.1rem}
+nav ul{display:flex;gap:1.1rem;list-style:none;margin:0;padding:0;flex-wrap:wrap}
+nav a{text-decoration:none;color:var(--muted);font-size:.92rem;padding:.3rem 0}nav a:hover{color:var(--ink);text-decoration:underline}
+.lang{display:flex;border:1px solid var(--line);border-radius:6px;overflow:hidden}
+.lang button{font:inherit;font-size:.85rem;background:transparent;color:var(--ink);border:0;padding:.4rem .8rem;cursor:pointer}
+.lang button[aria-pressed=true]{background:var(--ink);color:var(--bg)}
+.hero{display:grid;gap:3rem;grid-template-columns:1.5fr 1fr;align-items:end;border-top:0}
+.lead{font-size:1.2rem;color:var(--muted)}
+.btns{display:flex;gap:.8rem;flex-wrap:wrap;margin-top:1.6rem}
+.btn{display:inline-block;padding:.8rem 1.3rem;border-radius:6px;text-decoration:none;font-weight:600;border:2px solid var(--accent);background:var(--accent);color:var(--accent-ink)}
+.btn.alt{background:transparent;color:var(--ink);border-color:var(--ink)}
+.facts{background:var(--surface);border:1px solid var(--line);border-left:5px solid var(--accent);padding:1.4rem;margin:0}
+.facts dt{font-weight:700;font-size:.85rem;color:var(--muted)}.facts dd{margin:0 0 .9rem;overflow-wrap:anywhere}
+.grid{display:grid;gap:1.1rem;grid-template-columns:repeat(auto-fill,minmax(250px,1fr))}
+.card{background:var(--surface);border:1px solid var(--line);padding:1.3rem;border-radius:4px}
+.card p{margin:0;color:var(--muted);font-size:.95rem}
+.two{display:grid;gap:1.5rem;grid-template-columns:1fr 1fr}
+.note{background:var(--soft);padding:1rem 1.2rem;border-left:4px solid var(--muted);font-size:.95rem}
+.steps{list-style:none;counter-reset:s;padding:0;margin:0;display:grid;gap:1rem;grid-template-columns:repeat(auto-fill,minmax(210px,1fr))}
+.steps li{counter-increment:s;border-top:3px solid var(--ink);padding-top:.7rem}
+.steps li:before{content:counter(s);font-family:Georgia,serif;font-size:1.6rem;font-weight:700;color:var(--accent)}
+.steps h3{margin:.2rem 0}.steps p{font-size:.93rem;color:var(--muted)}
+a.dom{display:block;text-decoration:none;background:var(--surface);border:1px solid var(--line);padding:1.2rem;border-radius:4px}
+a.dom:hover{border-color:var(--accent)}
+a.dom strong{display:block;overflow-wrap:anywhere}a.dom span{display:block;font-size:.88rem;font-weight:700;color:var(--accent);margin:.2rem 0}
+a.dom em{font-style:normal;color:var(--muted);font-size:.93rem}
+.cur{border-color:var(--ink)!important;border-width:2px!important}
+.soc{display:flex;flex-wrap:wrap;gap:.6rem;list-style:none;padding:0;margin:1rem 0 0}
+.soc a{display:inline-block;border:1px solid var(--line);background:var(--surface);padding:.5rem .9rem;border-radius:999px;text-decoration:none;font-size:.92rem}
+.soc a:hover{border-color:var(--accent)}
+footer{border-top:1px solid var(--line);padding:2.5rem 0;color:var(--muted);font-size:.92rem}
+footer .grid{margin-bottom:1.5rem}footer ul{list-style:none;padding:0;margin:0}footer li{margin:.3rem 0}
+@media(max-width:800px){.hero,.two{grid-template-columns:1fr}nav{order:3;width:100%}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important;animation:none!important}}
+</style>
+</head>
+<body>
+<a class="skip" href="#main" data-i18n="skip">Skip to content</a>
+<header>
+<div class="wrap bar">
+<a class="brand" href="#top">Tết Pro Software</a>
+<nav aria-label="Main" data-i18n-aria="navl">
+<ul>
+<li><a href="#about" data-i18n="n_about">About</a></li>
+<li><a href="#services" data-i18n="n_serv">Services</a></li>
+<li><a href="#tech" data-i18n="n_tech">Technology</a></li>
+<li><a href="#products" data-i18n="n_prod">Products</a></li>
+<li><a href="#approach" data-i18n="n_appr">Approach</a></li>
+<li><a href="#ecosystem" data-i18n="n_eco">Ecosystem</a></li>
+<li><a href="#contact" data-i18n="n_cont">Contact</a></li>
+</ul>
+</nav>
+<div class="lang" role="group" aria-label="Language" data-i18n-aria="langl">
+<button type="button" data-lang="en" aria-pressed="true" lang="en">English</button>
+<button type="button" data-lang="vi" aria-pressed="false" lang="vi">Tiếng Việt</button>
+</div>
+</div>
+</header>
+
+<main id="main">
+<div class="wrap">
+<section class="hero" id="top">
+<div>
+<h1 data-i18n="h1">Software that moves your business forward.</h1>
+<p class="lead" data-i18n="lead">Tết Pro Software designs and builds custom software, web and mobile applications, and automation for organisations going through digital transformation.</p>
+<div class="btns">
+<a class="btn" href="#contact" data-i18n="cta1">Contact us</a>
+<a class="btn alt" href="#services" data-i18n="cta2">View services</a>
+</div>
+</div>
+<dl class="facts">
+<dt data-i18n="f_name">Company (Vietnamese name)</dt><dd>Công ty Cổ phần Phần mềm Tết Pro</dd>
+<dt data-i18n="f_pos">Positioning</dt><dd>Digital Transformation &amp; Software Solutions</dd>
+<dt data-i18n="f_addr">Address</dt><dd>30 Phan Đình Phùng, Ba Đình, Hà Nội, Việt Nam</dd>
+<dt>Email</dt><dd><a href="mailto:lien-he@tetprosoftware.com">lien-he@tetprosoftware.com</a></dd>
+</dl>
+</section>
+</div>
+
+<section id="about"><div class="wrap">
+<h2 data-i18n="about_h">Company overview</h2>
+<div class="two">
+<div>
+<p data-i18n="about_p1">Tết Pro Software is a software company based in Hanoi, Vietnam. We focus on helping organisations replace manual work with reliable, maintainable software.</p>
+<p data-i18n="about_p2">This international website introduces the company to partners and prospective clients outside Vietnam. Our Vietnamese-language corporate website is tetprosoftware.com.</p>
+</div>
+<p class="note" data-i18n="about_note">We describe only what we can verify. This page does not claim overseas offices, named international clients or partners, certifications or audited figures.</p>
+</div>
+</div></section>
+
+<section id="services"><div class="wrap">
+<h2 data-i18n="serv_h">Core services</h2>
+<div class="grid">
+<div class="card"><h3 data-i18n="s1h">Custom software development</h3><p data-i18n="s1p">Software built around your processes, from requirements to maintained release.</p></div>
+<div class="card"><h3 data-i18n="s2h">Web and mobile applications</h3><p data-i18n="s2p">Responsive websites, web apps and mobile apps for customers and teams.</p></div>
+<div class="card"><h3 data-i18n="s3h">Business management software</h3><p data-i18n="s3p">Internal systems for operations, records, reporting and coordination.</p></div>
+<div class="card"><h3 data-i18n="s4h">Process automation</h3><p data-i18n="s4p">Replacing repetitive manual steps with integrated, auditable workflows.</p></div>
+<div class="card"><h3 data-i18n="s5h">Technology consulting</h3><p data-i18n="s5p">Independent advice on architecture, tooling and digital transformation planning.</p></div>
+</div>
+</div></section>
+
+<section id="tech"><div class="wrap">
+<h2 data-i18n="tech_h">Technology areas</h2>
+<p data-i18n="tech_p">We separate the technologies we work with in delivery from those we are still researching.</p>
+<div class="two">
+<div>
+<h3 data-i18n="t_a">Delivery areas</h3>
+<div class="grid">
+<div class="card"><h3 data-i18n="t1">Cloud computing</h3><p data-i18n="t1p">Hosting and deploying applications on cloud infrastructure.</p></div>
+<div class="card"><h3 data-i18n="t2">DevOps</h3><p data-i18n="t2p">Version control, automated builds and repeatable releases.</p></div>
+<div class="card"><h3 data-i18n="t3">Open-source technologies</h3><p data-i18n="t3p">Building on widely used open-source tools and frameworks.</p></div>
+</div>
+</div>
+<div>
+<h3 data-i18n="t_b">Research areas</h3>
+<div class="grid">
+<div class="card"><h3 data-i18n="t4">AI / ML</h3><p data-i18n="t4p">Under research. Not presented as a delivered capability.</p></div>
+<div class="card"><h3 data-i18n="t5">IoT</h3><p data-i18n="t5p">Under research. Not presented as a delivered capability.</p></div>
+<div class="card"><h3 data-i18n="t6">Blockchain</h3><p data-i18n="t6p">Under research. Not presented as a delivered capability.</p></div>
+</div>
+</div>
+</div>
+</div></section>
+
+<section id="products"><div class="wrap">
+<h2 data-i18n="prod_h">Products and solutions</h2>
+<p data-i18n="prod_p">We do not list products, customers or case studies on this page until they can be documented publicly. Our product catalog and technology pages are maintained on separate websites.</p>
+<div class="grid">
+<a class="dom" href="https://www.tetprosoftware.site/"><span data-i18n="d_site_l">Product catalog</span><strong>tetprosoftware.site</strong><em data-i18n="p_site">Browse the software product catalog.</em></a>
+<a class="dom" href="https://www.tetprosoftware.tech/"><span data-i18n="d_tech_l">Technology and solutions</span><strong>tetprosoftware.tech</strong><em data-i18n="p_tech">Read about our technology and solution areas.</em></a>
+</div>
+</div></section>
+
+<section id="approach"><div class="wrap">
+<h2 data-i18n="appr_h">Development approach</h2>
+<ol class="steps">
+<li><h3 data-i18n="a1h">Discovery</h3><p data-i18n="a1p">Understand goals, users, constraints and existing systems.</p></li>
+<li><h3 data-i18n="a2h">Planning</h3><p data-i18n="a2p">Define scope, architecture, priorities and milestones.</p></li>
+<li><h3 data-i18n="a3h">Implementation</h3><p data-i18n="a3p">Build in small increments with regular reviews.</p></li>
+<li><h3 data-i18n="a4h">Testing</h3><p data-i18n="a4p">Verify functionality, usability and reliability before release.</p></li>
+<li><h3 data-i18n="a5h">Deployment</h3><p data-i18n="a5p">Release to production with documented, repeatable steps.</p></li>
+<li><h3 data-i18n="a6h">Maintenance</h3><p data-i18n="a6p">Monitor, fix and improve after launch.</p></li>
+</ol>
+</div></section>
+
+<section id="ecosystem"><div class="wrap">
+<h2 data-i18n="eco_h">Ecosystem directory</h2>
+<p data-i18n="eco_p">Tết Pro Software operates ten websites, each with its own purpose. This is the international corporate website.</p>
+<div class="grid">
+<a class="dom" href="https://www.tetprosoftware.com/"><span data-i18n="d_com_l">Vietnamese corporate website</span><strong>tetprosoftware.com</strong><em data-i18n="p_com">Company information in Vietnamese.</em></a>
+<a class="dom cur" href="https://www.tetprosoftware.net/" aria-current="page"><span data-i18n="d_net_l">International corporate website</span><strong>tetprosoftware.net</strong><em data-i18n="p_net">You are here: company information for international readers.</em></a>
+<a class="dom" href="https://www.tetprosoftware.org/"><span data-i18n="d_org_l">Organization information</span><strong>tetprosoftware.org</strong><em data-i18n="p_org">Details about the organization.</em></a>
+<a class="dom" href="https://www.tetprosoftware.online/"><span data-i18n="d_onl_l">Service status</span><strong>tetprosoftware.online</strong><em data-i18n="p_onl">Check the status of our services.</em></a>
+<a class="dom" href="https://www.tetprosoftware.me/"><span data-i18n="d_me_l">Company bio and ecosystem directory</span><strong>tetprosoftware.me</strong><em data-i18n="p_me">A short company bio and a directory of our websites.</em></a>
+<a class="dom" href="https://www.tetprosoftware.store/"><span data-i18n="d_sto_l">Services and pricing</span><strong>tetprosoftware.store</strong><em data-i18n="p_sto">See available services and pricing.</em></a>
+<a class="dom" href="https://www.tetprosoftware.tech/"><span data-i18n="d_tech_l">Technology and solutions</span><strong>tetprosoftware.tech</strong><em data-i18n="p_tech">Read about our technology and solution areas.</em></a>
+<a class="dom" href="https://www.tetprosoftware.app/"><span data-i18n="d_app_l">Applications and download guidance</span><strong>tetprosoftware.app</strong><em data-i18n="p_app">Find our applications and how to download them.</em></a>
+<a class="dom" href="https://www.tetprosoftware.site/"><span data-i18n="d_site_l">Product catalog</span><strong>tetprosoftware.site</strong><em data-i18n="p_site">Browse the software product catalog.</em></a>
+<a class="dom" href="https://www.tetprosoftware.xyz/"><span data-i18n="d_xyz_l">Company journey and history</span><strong>tetprosoftware.xyz</strong><em data-i18n="p_xyz">The company's journey and development history.</em></a>
+</div>
+</div></section>
+
+<section id="contact"><div class="wrap">
+<h2 data-i18n="cont_h">Contact</h2>
+<div class="two">
+<dl class="facts">
+<dt>Email</dt><dd><a href="mailto:lien-he@tetprosoftware.com">lien-he@tetprosoftware.com</a></dd>
+<dt data-i18n="f_addr">Address</dt><dd>30 Phan Đình Phùng, Ba Đình, Hà Nội, Việt Nam</dd>
+<dt data-i18n="f_rep">Representative (as provided)</dt><dd>Ngô Anh Vũ</dd>
+<dt data-i18n="f_web">Main website</dt><dd><a href="https://www.tetprosoftware.com/">tetprosoftware.com</a></dd>
+</dl>
+<div>
+<h3 data-i18n="soc_h">Social channels</h3>
+<ul class="soc">
+<li><a href="https://www.facebook.com/tetprosoftware" rel="noopener">Facebook</a></li>
+<li><a href="https://www.instagram.com/tetprosoftware" rel="noopener">Instagram</a></li>
+<li><a href="https://www.threads.com/@tetprosoftware" rel="noopener">Threads</a></li>
+<li><a href="https://www.tiktok.com/@tetprosoftware" rel="noopener">TikTok</a></li>
+<li><a href="https://www.youtube.com/@tetprosoftware" rel="noopener">YouTube</a></li>
+<li><a href="https://github.com/tetprosoftware" rel="noopener">GitHub</a></li>
+<li><a href="https://www.pinterest.com/tetprosoftware" rel="noopener">Pinterest</a></li>
+<li><a href="https://www.linkedin.com/company/tetprosoftware" rel="noopener">LinkedIn</a></li>
+</ul>
+</div>
+</div>
+</div></section>
+</main>
+
+<footer><div class="wrap">
+<div class="grid">
+<div><strong>Tết Pro Software</strong><p data-i18n="ft_about">Digital Transformation &amp; Software Solutions, Hanoi, Vietnam.</p></div>
+<div><strong data-i18n="ft_nav">Navigate</strong>
+<ul><li><a href="#about" data-i18n="n_about">About</a></li><li><a href="#services" data-i18n="n_serv">Services</a></li><li><a href="#ecosystem" data-i18n="n_eco">Ecosystem</a></li><li><a href="#contact" data-i18n="n_cont">Contact</a></li></ul></div>
+<div><strong data-i18n="ft_pol">Privacy and transparency</strong>
+<p data-i18n="ft_priv">This page has no forms, analytics or cookies. Your browser stores only your language choice. Dedicated policy pages are not yet published.</p></div>
+<div><strong data-i18n="ft_leg">Legal information</strong>
+<p data-i18n="ft_legp">Vietnamese company name: Công ty Cổ phần Phần mềm Tết Pro. An official English legal name has not yet been confirmed and is not stated here.</p></div>
+</div>
+<p>© <span id="yr">2026</span> Tết Pro Software.</p>
+</div></footer>
+
+<script>
+(function(){
+var D={en:{
+t:"Tết Pro Software | Digital Transformation & Software Solutions",
+d:"Tết Pro Software provides custom software development, web and mobile applications, business software, process automation and technology consulting from Hanoi, Vietnam.",
+skip:"Skip to content",navl:"Main",langl:"Language",
+n_about:"About",n_serv:"Services",n_tech:"Technology",n_prod:"Products",n_appr:"Approach",n_eco:"Ecosystem",n_cont:"Contact",
+h1:"Software that moves your business forward.",
+lead:"Tết Pro Software designs and builds custom software, web and mobile applications, and automation for organisations going through digital transformation.",
+cta1:"Contact us",cta2:"View services",
+f_name:"Company (Vietnamese name)",f_pos:"Positioning",f_addr:"Address",f_rep:"Representative (as provided)",f_web:"Main website",
+about_h:"Company overview",
+about_p1:"Tết Pro Software is a software company based in Hanoi, Vietnam. We focus on helping organisations replace manual work with reliable, maintainable software.",
+about_p2:"This international website introduces the company to partners and prospective clients outside Vietnam. Our Vietnamese-language corporate website is tetprosoftware.com.",
+about_note:"We describe only what we can verify. This page does not claim overseas offices, named international clients or partners, certifications or audited figures.",
+serv_h:"Core services",
+s1h:"Custom software development",s1p:"Software built around your processes, from requirements to maintained release.",
+s2h:"Web and mobile applications",s2p:"Responsive websites, web apps and mobile apps for customers and teams.",
+s3h:"Business management software",s3p:"Internal systems for operations, records, reporting and coordination.",
+s4h:"Process automation",s4p:"Replacing repetitive manual steps with integrated, auditable workflows.",
+s5h:"Technology consulting",s5p:"Independent advice on architecture, tooling and digital transformation planning.",
+tech_h:"Technology areas",tech_p:"We separate the technologies we work with in delivery from those we are still researching.",
+t_a:"Delivery areas",t_b:"Research areas",
+t1:"Cloud computing",t1p:"Hosting and deploying applications on cloud infrastructure.",
+t2:"DevOps",t2p:"Version control, automated builds and repeatable releases.",
+t3:"Open-source technologies",t3p:"Building on widely used open-source tools and frameworks.",
+t4:"AI / ML",t4p:"Under research. Not presented as a delivered capability.",
+t5:"IoT",t5p:"Under research. Not presented as a delivered capability.",
+t6:"Blockchain",t6p:"Under research. Not presented as a delivered capability.",
+prod_h:"Products and solutions",
+prod_p:"We do not list products, customers or case studies on this page until they can be documented publicly. Our product catalog and technology pages are maintained on separate websites.",
+appr_h:"Development approach",
+a1h:"Discovery",a1p:"Understand goals, users, constraints and existing systems.",
+a2h:"Planning",a2p:"Define scope, architecture, priorities and milestones.",
+a3h:"Implementation",a3p:"Build in small increments with regular reviews.",
+a4h:"Testing",a4p:"Verify functionality, usability and reliability before release.",
+a5h:"Deployment",a5p:"Release to production with documented, repeatable steps.",
+a6h:"Maintenance",a6p:"Monitor, fix and improve after launch.",
+eco_h:"Ecosystem directory",eco_p:"Tết Pro Software operates ten websites, each with its own purpose. This is the international corporate website.",
+d_com_l:"Vietnamese corporate website",p_com:"Company information in Vietnamese.",
+d_net_l:"International corporate website",p_net:"You are here: company information for international readers.",
+d_org_l:"Organization information",p_org:"Details about the organization.",
+d_onl_l:"Service status",p_onl:"Check the status of our services.",
+d_me_l:"Company bio and ecosystem directory",p_me:"A short company bio and a directory of our websites.",
+d_sto_l:"Services and pricing",p_sto:"See available services and pricing.",
+d_tech_l:"Technology and solutions",p_tech:"Read about our technology and solution areas.",
+d_app_l:"Applications and download guidance",p_app:"Find our applications and how to download them.",
+d_site_l:"Product catalog",p_site:"Browse the software product catalog.",
+d_xyz_l:"Company journey and history",p_xyz:"The company's journey and development history.",
+cont_h:"Contact",soc_h:"Social channels",
+ft_about:"Digital Transformation & Software Solutions, Hanoi, Vietnam.",ft_nav:"Navigate",
+ft_pol:"Privacy and transparency",ft_priv:"This page has no forms, analytics or cookies. Your browser stores only your language choice. Dedicated policy pages are not yet published.",
+ft_leg:"Legal information",ft_legp:"Vietnamese company name: Công ty Cổ phần Phần mềm Tết Pro. An official English legal name has not yet been confirmed and is not stated here."
+},vi:{
+t:"Tết Pro Software | Chuyển đổi số & Giải pháp phần mềm",
+d:"Tết Pro Software cung cấp phát triển phần mềm theo yêu cầu, ứng dụng web và di động, phần mềm quản trị doanh nghiệp, tự động hóa quy trình và tư vấn công nghệ tại Hà Nội, Việt Nam.",
+skip:"Chuyển đến nội dung chính",navl:"Điều hướng chính",langl:"Ngôn ngữ",
+n_about:"Giới thiệu",n_serv:"Dịch vụ",n_tech:"Công nghệ",n_prod:"Sản phẩm",n_appr:"Quy trình",n_eco:"Hệ sinh thái",n_cont:"Liên hệ",
+h1:"Phần mềm giúp doanh nghiệp của bạn tiến xa hơn.",
+lead:"Tết Pro Software thiết kế và xây dựng phần mềm theo yêu cầu, ứng dụng web và di động, cùng giải pháp tự động hóa cho các tổ chức đang chuyển đổi số.",
+cta1:"Liên hệ",cta2:"Xem dịch vụ",
+f_name:"Doanh nghiệp (tên tiếng Việt)",f_pos:"Định vị",f_addr:"Địa chỉ",f_rep:"Người đại diện (theo thông tin cung cấp)",f_web:"Website chính",
+about_h:"Tổng quan doanh nghiệp",
+about_p1:"Tết Pro Software là công ty phần mềm có trụ sở tại Hà Nội, Việt Nam. Chúng tôi giúp các tổ chức thay thế công việc thủ công bằng phần mềm đáng tin cậy, dễ bảo trì.",
+about_p2:"Website quốc tế này giới thiệu doanh nghiệp tới đối tác và khách hàng tiềm năng ngoài Việt Nam. Website doanh nghiệp tiếng Việt của chúng tôi là tetprosoftware.com.",
+about_note:"Chúng tôi chỉ trình bày những gì có thể xác minh. Trang này không tuyên bố có văn phòng nước ngoài, khách hàng hoặc đối tác quốc tế cụ thể, chứng nhận hay số liệu đã kiểm toán.",
+serv_h:"Dịch vụ cốt lõi",
+s1h:"Phát triển phần mềm theo yêu cầu",s1p:"Phần mềm xây dựng theo quy trình của bạn, từ phân tích yêu cầu đến bản phát hành được bảo trì.",
+s2h:"Ứng dụng web và di động",s2p:"Website responsive, ứng dụng web và ứng dụng di động cho khách hàng và đội ngũ nội bộ.",
+s3h:"Phần mềm quản trị doanh nghiệp",s3p:"Hệ thống nội bộ cho vận hành, lưu trữ hồ sơ, báo cáo và phối hợp công việc.",
+s4h:"Tự động hóa quy trình",s4p:"Thay các bước thủ công lặp lại bằng quy trình tích hợp, có thể kiểm tra.",
+s5h:"Tư vấn công nghệ",s5p:"Tư vấn độc lập về kiến trúc, công cụ và lộ trình chuyển đổi số.",
+tech_h:"Lĩnh vực công nghệ",tech_p:"Chúng tôi phân biệt công nghệ đang dùng trong triển khai với công nghệ đang nghiên cứu.",
+t_a:"Lĩnh vực triển khai",t_b:"Lĩnh vực nghiên cứu",
+t1:"Điện toán đám mây",t1p:"Lưu trữ và triển khai ứng dụng trên hạ tầng đám mây.",
+t2:"DevOps",t2p:"Quản lý phiên bản, build tự động và phát hành lặp lại được.",
+t3:"Công nghệ mã nguồn mở",t3p:"Xây dựng trên các công cụ và framework mã nguồn mở phổ biến.",
+t4:"AI / ML",t4p:"Đang nghiên cứu. Không được giới thiệu như năng lực đã triển khai.",
+t5:"IoT",t5p:"Đang nghiên cứu. Không được giới thiệu như năng lực đã triển khai.",
+t6:"Blockchain",t6p:"Đang nghiên cứu. Không được giới thiệu như năng lực đã triển khai.",
+prod_h:"Sản phẩm và giải pháp",
+prod_p:"Chúng tôi chưa liệt kê sản phẩm, khách hàng hay case study trên trang này cho đến khi có thể công bố tài liệu rõ ràng. Danh mục sản phẩm và trang công nghệ được duy trì trên các website riêng.",
+appr_h:"Quy trình phát triển",
+a1h:"Khám phá",a1p:"Tìm hiểu mục tiêu, người dùng, ràng buộc và hệ thống hiện có.",
+a2h:"Lập kế hoạch",a2p:"Xác định phạm vi, kiến trúc, mức ưu tiên và các mốc.",
+a3h:"Triển khai",a3p:"Xây dựng theo từng bước nhỏ, đánh giá thường xuyên.",
+a4h:"Kiểm thử",a4p:"Kiểm tra chức năng, tính dễ dùng và độ ổn định trước khi phát hành.",
+a5h:"Phát hành",a5p:"Đưa lên môi trường thực tế bằng các bước có tài liệu, lặp lại được.",
+a6h:"Bảo trì",a6p:"Giám sát, sửa lỗi và cải tiến sau khi vận hành.",
+eco_h:"Danh bạ hệ sinh thái",eco_p:"Tết Pro Software vận hành mười website, mỗi website có mục đích riêng. Đây là website doanh nghiệp quốc tế.",
+d_com_l:"Website doanh nghiệp tiếng Việt",p_com:"Thông tin doanh nghiệp bằng tiếng Việt.",
+d_net_l:"Website doanh nghiệp quốc tế",p_net:"Bạn đang ở đây: thông tin doanh nghiệp cho độc giả quốc tế.",
+d_org_l:"Thông tin tổ chức",p_org:"Thông tin chi tiết về tổ chức.",
+d_onl_l:"Tình trạng dịch vụ",p_onl:"Kiểm tra tình trạng các dịch vụ của chúng tôi.",
+d_me_l:"Tiểu sử công ty và danh bạ hệ sinh thái",p_me:"Giới thiệu ngắn về công ty và danh bạ các website.",
+d_sto_l:"Dịch vụ và bảng giá",p_sto:"Xem các dịch vụ và bảng giá.",
+d_tech_l:"Công nghệ và giải pháp",p_tech:"Tìm hiểu các lĩnh vực công nghệ và giải pháp của chúng tôi.",
+d_app_l:"Ứng dụng và hướng dẫn tải",p_app:"Tìm ứng dụng của chúng tôi và cách tải về.",
+d_site_l:"Danh mục sản phẩm",p_site:"Xem danh mục sản phẩm phần mềm.",
+d_xyz_l:"Hành trình và lịch sử phát triển",p_xyz:"Hành trình và lịch sử phát triển của công ty.",
+cont_h:"Liên hệ",soc_h:"Kênh mạng xã hội",
+ft_about:"Chuyển đổi số & Giải pháp phần mềm, Hà Nội, Việt Nam.",ft_nav:"Điều hướng",
+ft_pol:"Quyền riêng tư và minh bạch",ft_priv:"Trang này không có biểu mẫu, công cụ phân tích hay cookie. Trình duyệt chỉ lưu lựa chọn ngôn ngữ của bạn. Các trang chính sách riêng chưa được công bố.",
+ft_leg:"Thông tin pháp lý",ft_legp:"Tên doanh nghiệp tiếng Việt: Công ty Cổ phần Phần mềm Tết Pro. Tên pháp lý tiếng Anh chính thức chưa được xác nhận nên chưa được nêu ở đây."
+}};
+var KEY="tps-lang",btns=document.querySelectorAll("[data-lang]");
+function set(l,save){
+var t=D[l];if(!t)return;
+document.documentElement.lang=l;
+document.querySelectorAll("[data-i18n]").forEach(function(e){var k=e.getAttribute("data-i18n");if(t[k]!==undefined)e.textContent=t[k]});
+document.querySelectorAll("[data-i18n-aria]").forEach(function(e){var k=e.getAttribute("data-i18n-aria");if(t[k])e.setAttribute("aria-label",t[k])});
+document.title=t.t;
+document.querySelector('meta[name=description]').setAttribute("content",t.d);
+document.querySelector('meta[property="og:title"]').setAttribute("content",t.t);
+document.querySelector('meta[property="og:description"]').setAttribute("content",t.d);
+btns.forEach(function(b){b.setAttribute("aria-pressed",b.dataset.lang===l)});
+if(save){try{localStorage.setItem(KEY,l)}catch(e){}}
+}
+btns.forEach(function(b){b.addEventListener("click",function(){set(b.dataset.lang,true)})});
+var s=null;try{s=localStorage.getItem(KEY)}catch(e){}
+var l=s||((navigator.language||"en").toLowerCase().indexOf("vi")===0?"vi":"en");
+if(l!=="en")set(l,false);
+document.getElementById("yr").textContent=new Date().getFullYear();
+})();
+</script>
+</body>
+</html>
