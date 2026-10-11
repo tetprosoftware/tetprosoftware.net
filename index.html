@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tet Pro Software — Software Solutions for Digital Transformation</title>
+<meta name="description" content="Custom software, business applications and technology integration — delivered through a clear, collaborative process.">
+<link rel="canonical" href="https://www.tetprosoftware.net/">
+<meta name="theme-color" content="#2563EB">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Tet Pro Software">
+<meta property="og:title" content="Tet Pro Software — Software Solutions for Digital Transformation">
+<meta property="og:description" content="Engineering practical software for digital transformation.">
+<meta property="og:url" content="https://www.tetprosoftware.net/">
+<meta name="twitter:card" content="summary">
+<style>
+:root{--bg:#F8FAFC;--tx:#1F2937;--mu:#475569;--card:#fff;--ice:#BAE6FD;--bl:#2563EB;--ac:#6EE7B7;--bd:#dbe4ef;--hd:rgba(248,250,252,.86)}
+@media(prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#0B1220;--tx:#E5E7EB;--mu:#9FB0C6;--card:#111B2F;--ice:#0F3A5C;--bl:#60A5FA;--ac:#34D399;--bd:#223250;--hd:rgba(11,18,32,.86)}}
+:root[data-theme=dark]{--bg:#0B1220;--tx:#E5E7EB;--mu:#9FB0C6;--card:#111B2F;--ice:#0F3A5C;--bl:#60A5FA;--ac:#34D399;--bd:#223250;--hd:rgba(11,18,32,.86)}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:110px}
+body{margin:0;background:var(--bg);color:var(--tx);font:16px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,"Noto Sans","Noto Sans SC","Noto Sans TC","Noto Sans KR","Noto Sans JP","Noto Sans Thai","Noto Sans Devanagari","Hiragino Sans","Microsoft YaHei","Malgun Gothic",sans-serif}
+a{color:var(--bl)}
+:focus-visible{outline:3px solid var(--bl);outline-offset:2px;border-radius:6px}
+.skip{position:absolute;left:-999px;top:8px;background:var(--bl);color:#fff;padding:8px 14px;border-radius:8px;z-index:99}
+.skip:focus{left:8px}
+header{position:sticky;top:0;z-index:20;background:var(--hd);backdrop-filter:blur(12px);border-bottom:1px solid var(--bd)}
+.bar{max-width:1160px;margin:auto;padding:10px 20px;display:flex;flex-wrap:wrap;align-items:center;gap:10px 18px}
+.logo{display:flex;align-items:center;gap:10px;font-weight:800;color:var(--tx);text-decoration:none;letter-spacing:-.02em}
+.logo i{width:30px;height:30px;border-radius:9px;background:linear-gradient(135deg,var(--bl),var(--ac));display:grid;place-items:center;color:#fff;font-style:normal;font-size:15px}
+nav{display:flex;gap:4px;margin-inline:auto;overflow-x:auto;max-width:100%}
+nav a{padding:8px 12px;border-radius:999px;color:var(--mu);text-decoration:none;font-weight:600;font-size:15px;white-space:nowrap}
+nav a:hover{background:var(--ice);color:var(--tx)}
+.tools{display:flex;gap:8px;align-items:center}
+select,button,input,textarea{font:inherit;color:var(--tx)}
+select,.ib{background:var(--card);border:1px solid var(--bd);border-radius:10px;padding:8px 10px;min-height:40px}
+.ib{cursor:pointer;width:40px;padding:0}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:10px 20px;border-radius:12px;background:var(--bl);color:#fff;font-weight:700;text-decoration:none;border:0;cursor:pointer}
+.btn:hover{filter:brightness(1.08)}
+.btn.s{background:var(--card);color:var(--tx);border:1px solid var(--bd)}
+.btn.sm{min-height:40px;padding:8px 16px}
+@media(max-width:900px){nav{order:3;width:100%;margin:0}.bar .btn.sm{display:none}.tools{margin-inline-start:auto}}
+section{max-width:1160px;margin:auto;padding:72px 20px}
+.hero{display:grid;grid-template-columns:1.1fr .9fr;gap:36px;align-items:center;padding-top:56px}
+@media(max-width:860px){.hero{grid-template-columns:1fr}}
+.eb{display:inline-flex;align-items:center;gap:8px;font-weight:700;color:var(--mu);font-size:14px;letter-spacing:.02em}
+.eb:before{content:"";width:10px;height:10px;border-radius:50%;background:var(--ac);box-shadow:0 0 0 5px color-mix(in srgb,var(--ac) 25%,transparent)}
+h1{font-size:clamp(2.1rem,5vw,3.6rem);line-height:1.12;margin:14px 0;letter-spacing:-.03em}
+h2{font-size:clamp(1.6rem,3vw,2.2rem);margin:0 0 10px;letter-spacing:-.02em;display:flex;align-items:center;gap:12px}
+h2:before{content:"";width:6px;height:1.1em;border-radius:4px;background:var(--ac)}
+.lead{color:var(--mu);font-size:1.12rem;max-width:60ch}
+.cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:24px}
+.vis{border-radius:28px;background:linear-gradient(160deg,var(--ice),transparent 75%),var(--card);border:1px solid var(--bd);padding:10px}
+.vis svg{width:100%;height:auto;display:block}
+.pl{animation:pl 3s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes pl{50%{transform:scale(1.6);opacity:.5}}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;margin-top:26px}
+.card{background:var(--card);border:1px solid var(--bd);border-radius:18px;padding:22px}
+.card b{display:block;font-size:1.05rem}
+.n{display:inline-grid;place-items:center;width:32px;height:32px;border-radius:10px;background:var(--ice);color:var(--bl);font-weight:800;margin-bottom:10px}
+.chips{display:flex;flex-wrap:wrap;gap:10px;margin:20px 0}
+.chip{padding:8px 16px;border-radius:999px;background:var(--ice);font-weight:700}
+.note{color:var(--mu);border-inline-start:4px solid var(--ac);padding-inline-start:14px}
+.steps{counter-reset:s;list-style:none;padding:0;margin:26px 0 0;display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:14px}
+.steps li{counter-increment:s;background:var(--card);border:1px solid var(--bd);border-radius:16px;padding:18px;font-weight:700}
+.steps li:before{content:counter(s);display:block;color:var(--bl);font-size:1.6rem;font-weight:800}
+.eco a{display:block;text-decoration:none;color:var(--tx);height:100%}
+.eco .card:hover{border-color:var(--bl)}
+.eco small{display:block;color:var(--mu)}
+.badge{display:inline-block;margin-top:8px;padding:2px 10px;border-radius:999px;background:var(--ac);color:#06261b;font-size:12px;font-weight:800}
+form{display:grid;gap:14px;max-width:620px;margin-top:20px}
+label{font-weight:700;display:grid;gap:6px}
+input,textarea{width:100%;background:var(--card);border:1px solid var(--bd);border-radius:12px;padding:12px}
+textarea{min-height:130px;resize:vertical}
+[aria-invalid=true]{border-color:#dc2626}
+#st{min-height:1.5em;font-weight:600}
+footer{border-top:1px solid var(--bd);padding:34px 20px;text-align:center;color:var(--mu)}
+.soc{display:flex;flex-wrap:wrap;justify-content:center;gap:8px 18px;list-style:none;padding:0;margin:0 0 18px}
+footer p{margin:6px 0;font-size:14px}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;scroll-behavior:auto!important;transition:none!important}}
+</style>
+</head>
+<body>
+<a class="skip" href="#main" data-i="sk">Skip to content</a>
+<header>
+<div class="bar">
+<a class="logo" href="#top" aria-label="Tet Pro Software"><i aria-hidden="true">T</i>Tet Pro Software</a>
+<nav aria-label="Main">
+<a href="#solutions" data-i="n1">Solutions</a>
+<a href="https://www.tetprosoftware.site/" data-i="n2">Products</a>
+<a href="#technology" data-i="n3">Technology</a>
+<a href="#company" data-i="n4">Company</a>
+<a href="#ecosystem" data-i="n5">Ecosystem</a>
+</nav>
+<div class="tools">
+<select id="lang" data-a="lg" aria-label="Language">
+<option value="en">English</option><option value="vi">Tiếng Việt</option><option value="zh-Hans">简体中文</option><option value="ko">한국어</option><option value="ja">日本語</option><option value="fr">Français</option><option value="zh-Hant">繁體中文</option><option value="th">ไทย</option><option value="hi">हिन्दी</option><option value="de">Deutsch</option>
+</select>
+<button class="ib" id="theme" type="button" data-a="th" aria-label="Toggle theme">◐</button>
+<a class="btn sm" href="#contact" data-i="cta">Discuss a project</a>
+</div>
+</div>
+</header>
+<main id="main">
+<section class="hero" id="top">
+<div>
+<span class="eb">Tet Pro Software — Software Solutions for Digital Transformation.</span>
+<h1 data-i="h1">Engineering practical software for digital transformation.</h1>
+<p class="lead" data-i="sub">Custom software, business applications and technology integration — delivered through a clear, collaborative process.</p>
+<div class="cta"><a class="btn" href="#solutions" data-i="b1">Explore solutions</a><a class="btn s" href="#ecosystem" data-i="b2">Discover our ecosystem</a></div>
+</div>
+<div class="vis" aria-hidden="true">
+<svg viewBox="0 0 400 320" xmlns="http://www.w3.org/2000/svg">
+<defs><pattern id="dp" width="14" height="14" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.4" fill="var(--bl)" opacity=".25"/></pattern></defs>
+<path d="M30 90C60 40 140 30 190 60S300 40 350 90 380 190 330 240 230 290 170 270 40 230 30 160Z" fill="url(#dp)"/>
+<g stroke="var(--bl)" stroke-width="1.5" fill="none" opacity=".55">
+<path d="M80 110L170 80L260 120L330 90"/><path d="M80 110L120 200L220 230L260 120"/><path d="M170 80L220 230"/><path d="M120 200L300 200L330 90"/><path d="M260 120L300 200"/>
+</g>
+<g fill="var(--bl)"><circle cx="80" cy="110" r="6"/><circle cx="170" cy="80" r="6"/><circle cx="260" cy="120" r="6"/><circle cx="330" cy="90" r="6"/><circle cx="120" cy="200" r="6"/><circle cx="220" cy="230" r="6"/><circle cx="300" cy="200" r="6"/></g>
+<g fill="var(--ac)"><circle class="pl" cx="170" cy="80" r="10"/><circle class="pl" cx="220" cy="230" r="10" style="animation-delay:1s"/><circle class="pl" cx="330" cy="90" r="10" style="animation-delay:2s"/></g>
+</svg>
+</div>
+</section>
+
+<section id="solutions">
+<h2 data-i="st">Solutions</h2>
+<div class="grid">
+<div class="card"><span class="n">1</span><b data-i="s1">Custom software development</b></div>
+<div class="card"><span class="n">2</span><b data-i="s2">Business management software</b></div>
+<div class="card"><span class="n">3</span><b data-i="s3">Web and mobile applications</b></div>
+<div class="card"><span class="n">4</span><b data-i="s4">Cloud and DevOps</b></div>
+<div class="card"><span class="n">5</span><b data-i="s5">API integration</b></div>
+<div class="card"><span class="n">6</span><b data-i="s6">Emerging technology exploration</b></div>
+</div>
+</section>
+
+<section id="technology">
+<h2 data-i="tt">Technology</h2>
+<p class="lead" data-i="td">Directions we can research or implement depending on each project's needs.</p>
+<div class="chips"><span class="chip">AI</span><span class="chip">Machine Learning</span><span class="chip">IoT</span><span class="chip">Blockchain</span></div>
+<p class="note" data-i="tn">These are exploratory directions, not ready-made commercial products.</p>
+</section>
+
+<section id="engagement">
+<h2 data-i="et">Engagement model</h2>
+<ol class="steps">
+<li data-i="e1">Discovery</li><li data-i="e2">Planning</li><li data-i="e3">Design</li><li data-i="e4">Development</li><li data-i="e5">Testing</li><li data-i="e6">Delivery and support</li>
+</ol>
+</section>
+
+<section id="company">
+<h2 data-i="gt">Global collaboration</h2>
+<p class="lead" data-i="gd">We work online and can discuss projects with international teams through video calls, shared documents and written briefs.</p>
+</section>
+
+<section id="ecosystem" class="eco">
+<h2 data-i="ot">Global ecosystem</h2>
+<p class="lead" data-i="od">Ten connected websites, each with its own purpose.</p>
+<div class="grid">
+<a href="https://www.tetprosoftware.com/" class="card"><b>.com</b><small data-i="d1">Vietnam</small></a>
+<a href="https://www.tetprosoftware.net/" class="card" aria-current="page"><b>.net</b><small data-i="d2">International</small><span class="badge" data-i="cur">Current site</span></a>
+<a href="https://www.tetprosoftware.org/" class="card"><b>.org</b><small data-i="d3">Organization</small></a>
+<a href="https://www.tetprosoftware.online/" class="card"><b>.online</b><small data-i="d4">Status</small></a>
+<a href="https://www.tetprosoftware.me/" class="card"><b>.me</b><small data-i="d5">Directory</small></a>
+<a href="https://www.tetprosoftware.store/" class="card"><b>.store</b><small data-i="d6">Pricing</small></a>
+<a href="https://www.tetprosoftware.tech/" class="card"><b>.tech</b><small data-i="d7">Engineering</small></a>
+<a href="https://www.tetprosoftware.app/" class="card"><b>.app</b><small data-i="d8">Apps</small></a>
+<a href="https://www.tetprosoftware.xyz/" class="card"><b>.xyz</b><small data-i="d9">Our story</small></a>
+<a href="https://www.tetprosoftware.site/" class="card"><b>.site</b><small data-i="d10">Products</small></a>
+</div>
+</section>
+
+<section id="contact">
+<h2 data-i="ct">Contact</h2>
+<p class="lead"><span data-i="cd">Send a short brief and we will reply by email.</span> <a href="mailto:lien-he@tetprosoftware.com">lien-he@tetprosoftware.com</a></p>
+<form id="f" novalidate>
+<label><span data-i="fn">Name</span><input id="fn" name="name" autocomplete="name" required></label>
+<label><span data-i="fe">Email</span><input id="fe" name="email" type="email" autocomplete="email" required></label>
+<label><span data-i="fm">Project brief</span><textarea id="fm" name="msg" required></textarea></label>
+<button class="btn" type="submit" data-i="fs">Send by email</button>
+<p id="st" role="status" aria-live="polite"></p>
+</form>
+</section>
+</main>
+
+<footer>
+<ul class="soc">
+<li><a href="https://www.facebook.com/tetprosoftware" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+<li><a href="https://www.instagram.com/tetprosoftware" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+<li><a href="https://www.threads.com/@tetprosoftware" target="_blank" rel="noopener noreferrer">Threads</a></li>
+<li><a href="https://www.tiktok.com/@tetprosoftware" target="_blank" rel="noopener noreferrer">TikTok</a></li>
+<li><a href="https://www.youtube.com/@tetprosoftware" target="_blank" rel="noopener noreferrer">YouTube</a></li>
+<li><a href="https://github.com/tetprosoftware" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+<li><a href="https://www.pinterest.com/tetprosoftware" target="_blank" rel="noopener noreferrer">Pinterest</a></li>
+<li><a href="https://www.linkedin.com/company/tetprosoftware" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+</ul>
+<p data-i="rt">© Tết Pro Software · 30 Phan Đình Phùng, Ba Đình, Hanoi (to be verified)</p>
+<p data-i="rv">Some translations are pending editorial review.</p>
+</footer>
+
+<script>
+/* Dictionaries: translations marked for editorial review (see key "rv"). Add new languages by adding an entry here and an <option>. */
+const D={
+en:{sk:"Skip to content",n1:"Solutions",n2:"Products",n3:"Technology",n4:"Company",n5:"Ecosystem",cta:"Discuss a project",th:"Toggle theme",lg:"Language",h1:"Engineering practical software for digital transformation.",sub:"Custom software, business applications and technology integration — delivered through a clear, collaborative process.",b1:"Explore solutions",b2:"Discover our ecosystem",st:"Solutions",s1:"Custom software development",s2:"Business management software",s3:"Web and mobile applications",s4:"Cloud and DevOps",s5:"API integration",s6:"Emerging technology exploration",tt:"Technology",td:"Directions we can research or implement depending on each project's needs.",tn:"These are exploratory directions, not ready-made commercial products.",et:"Engagement model",e1:"Discovery",e2:"Planning",e3:"Design",e4:"Development",e5:"Testing",e6:"Delivery and support",gt:"Global collaboration",gd:"We work online and can discuss projects with international teams through video calls, shared documents and written briefs.",ct:"Contact",cd:"Send a short brief and we will reply by email.",fn:"Name",fe:"Email",fm:"Project brief",fs:"Send by email",fx:"Please complete all fields with a valid email.",fo:"Your email app is opening with the message ready to send.",ot:"Global ecosystem",od:"Ten connected websites, each with its own purpose.",cur:"Current site",d1:"Vietnam",d2:"International",d3:"Organization",d4:"Status",d5:"Directory",d6:"Pricing",d7:"Engineering",d8:"Apps",d9:"Our story",d10:"Products",rv:"Some translations are pending editorial review.",rt:"© Tết Pro Software · 30 Phan Đình Phùng, Ba Đình, Hanoi (to be verified)"},
+vi:{sk:"Bỏ qua đến nội dung",n1:"Giải pháp",n2:"Sản phẩm",n3:"Công nghệ",n4:"Công ty",n5:"Hệ sinh thái",cta:"Trao đổi dự án",th:"Đổi giao diện",lg:"Ngôn ngữ",h1:"Xây dựng phần mềm thực tiễn cho chuyển đổi số.",sub:"Phần mềm theo yêu cầu, ứng dụng doanh nghiệp và tích hợp công nghệ — triển khai theo quy trình rõ ràng, phối hợp chặt chẽ.",b1:"Khám phá giải pháp",b2:"Khám phá hệ sinh thái",st:"Giải pháp",s1:"Phát triển phần mềm theo yêu cầu",s2:"Phần mềm quản lý doanh nghiệp",s3:"Ứng dụng web và di động",s4:"Cloud và DevOps",s5:"Tích hợp API",s6:"Nghiên cứu công nghệ mới nổi",tt:"Công nghệ",td:"Các hướng có thể nghiên cứu hoặc triển khai tùy theo nhu cầu từng dự án.",tn:"Đây là các hướng khám phá, không phải sản phẩm thương mại đã hoàn thiện.",et:"Mô hình hợp tác",e1:"Khảo sát",e2:"Lập kế hoạch",e3:"Thiết kế",e4:"Phát triển",e5:"Kiểm thử",e6:"Bàn giao và hỗ trợ",gt:"Hợp tác toàn cầu",gd:"Chúng tôi làm việc trực tuyến và có thể trao đổi dự án với đội ngũ quốc tế qua họp video, tài liệu chia sẻ và bản mô tả bằng văn bản.",ct:"Liên hệ",cd:"Gửi bản mô tả ngắn, chúng tôi sẽ phản hồi qua email.",fn:"Họ tên",fe:"Email",fm:"Mô tả dự án",fs:"Gửi qua email",fx:"Vui lòng điền đủ các trường và nhập email hợp lệ.",fo:"Ứng dụng email của bạn đang mở với nội dung sẵn sàng gửi.",ot:"Hệ sinh thái toàn cầu",od:"Mười website liên kết, mỗi trang một mục đích.",cur:"Trang hiện tại",d1:"Việt Nam",d2:"Quốc tế",d3:"Tổ chức",d4:"Trạng thái",d5:"Danh bạ",d6:"Bảng giá",d7:"Kỹ thuật",d8:"Ứng dụng",d9:"Câu chuyện",d10:"Sản phẩm",rv:"Một số bản dịch đang chờ biên tập.",rt:"© Tết Pro Software · 30 Phan Đình Phùng, Ba Đình, Hà Nội (cần xác minh)"},
+"zh-Hans":{sk:"跳到内容",n1:"解决方案",n2:"产品",n3:"技术",n4:"公司",n5:"生态系统",cta:"洽谈项目",th:"切换主题",lg:"语言",h1:"为数字化转型打造实用的软件。",sub:"定制软件、企业应用与技术集成,通过清晰、协作的流程交付。",b1:"探索解决方案",b2:"了解我们的生态系统",st:"解决方案",s1:"定制软件开发",s2:"企业管理软件",s3:"网页与移动应用",s4:"云与 DevOps",s5:"API 集成",s6:"新兴技术探索",tt:"技术",td:"可根据各项目需求研究或实施的方向。",tn:"这些是探索性方向,并非已完成的商业产品。",et:"合作模式",e1:"需求调研",e2:"规划",e3:"设计",e4:"开发",e5:"测试",e6:"交付与支持",gt:"全球协作",gd:"我们在线办公,可通过视频会议、共享文档和书面需求与国际团队沟通项目。",ct:"联系我们",cd:"发送简要需求,我们将通过邮件回复。",fn:"姓名",fe:"邮箱",fm:"项目简介",fs:"通过邮件发送",fx:"请填写所有字段并输入有效邮箱。",fo:"正在打开您的邮件应用,内容已准备好发送。",ot:"全球生态系统",od:"十个相互关联的网站,各有其用途。",cur:"当前站点",d1:"越南",d2:"国际",d3:"组织",d4:"状态",d5:"目录",d6:"价格",d7:"技术",d8:"应用",d9:"品牌故事",d10:"产品",rv:"部分翻译尚待编辑审校。",rt:"© Tết Pro Software · 河内巴亭郡 30 Phan Đình Phùng(待核实)"},
+ko:{sk:"본문으로 건너뛰기",n1:"솔루션",n2:"제품",n3:"기술",n4:"회사",n5:"에코시스템",cta:"프로젝트 상담",th:"테마 전환",lg:"언어",h1:"디지털 전환을 위한 실용적인 소프트웨어를 만듭니다.",sub:"맞춤형 소프트웨어, 업무용 애플리케이션, 기술 통합을 명확하고 협력적인 프로세스로 제공합니다.",b1:"솔루션 살펴보기",b2:"에코시스템 알아보기",st:"솔루션",s1:"맞춤형 소프트웨어 개발",s2:"업무 관리 소프트웨어",s3:"웹 및 모바일 애플리케이션",s4:"클라우드 및 DevOps",s5:"API 연동",s6:"신기술 탐색",tt:"기술",td:"프로젝트 요구에 따라 연구하거나 구현할 수 있는 방향입니다.",tn:"탐색 중인 방향이며 완성된 상용 제품이 아닙니다.",et:"협업 방식",e1:"탐색",e2:"기획",e3:"디자인",e4:"개발",e5:"테스트",e6:"인도 및 지원",gt:"글로벌 협업",gd:"온라인으로 업무를 진행하며 화상 회의, 공유 문서, 서면 브리프로 해외 팀과 프로젝트를 논의할 수 있습니다.",ct:"문의",cd:"간단한 요청서를 보내 주시면 이메일로 답변드립니다.",fn:"이름",fe:"이메일",fm:"프로젝트 설명",fs:"이메일로 보내기",fx:"모든 항목을 입력하고 올바른 이메일을 사용해 주세요.",fo:"이메일 앱이 열리고 있습니다. 보낼 내용이 준비되었습니다.",ot:"글로벌 에코시스템",od:"서로 연결된 열 개의 웹사이트로, 각각 고유한 목적이 있습니다.",cur:"현재 사이트",d1:"베트남",d2:"국제",d3:"조직",d4:"상태",d5:"디렉터리",d6:"가격",d7:"기술",d8:"앱",d9:"브랜드 스토리",d10:"제품",rv:"일부 번역은 편집 검수 대기 중입니다.",rt:"© Tết Pro Software · 30 Phan Đình Phùng, Ba Đình, 하노이 (확인 필요)"},
+ja:{sk:"本文へスキップ",n1:"ソリューション",n2:"製品",n3:"テクノロジー",n4:"会社",n5:"エコシステム",cta:"プロジェクトを相談",th:"テーマ切替",lg:"言語",h1:"デジタルトランスフォーメーションのための実用的なソフトウェアを開発します。",sub:"オーダーメイドのソフトウェア、業務アプリケーション、技術統合を、明確で協働的なプロセスで提供します。",b1:"ソリューションを見る",b2:"エコシステムを知る",st:"ソリューション",s1:"受託ソフトウェア開発",s2:"業務管理ソフトウェア",s3:"Web・モバイルアプリ",s4:"クラウドと DevOps",s5:"API 連携",s6:"先端技術の探索",tt:"テクノロジー",td:"プロジェクトの要件に応じて調査または実装しうる分野です。",tn:"これらは探索中の分野であり、完成した商用製品ではありません。",et:"進め方",e1:"ディスカバリー",e2:"計画",e3:"設計",e4:"開発",e5:"テスト",e6:"納品とサポート",gt:"グローバルな協業",gd:"オンラインで業務を行い、ビデオ会議、共有ドキュメント、書面のブリーフで海外チームとプロジェクトを相談できます。",ct:"お問い合わせ",cd:"簡単な概要をお送りください。メールでご返信します。",fn:"お名前",fe:"メールアドレス",fm:"プロジェクト概要",fs:"メールで送信",fx:"すべての項目を入力し、有効なメールアドレスを指定してください。",fo:"メールアプリを開いています。送信内容は入力済みです。",ot:"グローバルエコシステム",od:"相互に連携する10のウェブサイト。それぞれ目的が異なります。",cur:"現在のサイト",d1:"ベトナム",d2:"国際",d3:"組織",d4:"ステータス",d5:"ディレクトリ",d6:"料金",d7:"技術",d8:"アプリ",d9:"ストーリー",d10:"製品",rv:"一部の翻訳は編集確認待ちです。",rt:"© Tết Pro Software · 30 Phan Đình Phùng, Ba Đình, ハノイ(要確認)"},
+fr:{sk:"Aller au contenu",n1:"Solutions",n2:"Produits",n3:"Technologie",n4:"Entreprise",n5:"Écosystème",cta:"Discuter d’un projet",th:"Changer de thème",lg:"Langue",h1:"Concevoir des logiciels pragmatiques pour la transformation numérique.",sub:"Logiciels sur mesure, applications métier et intégration technologique, livrés selon un processus clair et collaboratif.",b1:"Découvrir les solutions",b2:"Découvrir notre écosystème",st:"Solutions",s1:"Développement de logiciels sur mesure",s2:"Logiciels de gestion d’entreprise",s3:"Applications web et mobiles",s4:"Cloud et DevOps",s5:"Intégration d’API",s6:"Exploration des technologies émergentes",tt:"Technologie",td:"Des pistes que nous pouvons étudier ou mettre en œuvre selon les besoins de chaque projet.",tn:"Ce sont des pistes exploratoires, et non des produits commerciaux finalisés.",et:"Modèle de collaboration",e1:"Découverte",e2:"Planification",e3:"Conception",e4:"Développement",e5:"Tests",e6:"Livraison et support",gt:"Collaboration internationale",gd:"Nous travaillons en ligne et pouvons échanger sur vos projets avec des équipes internationales via visioconférence, documents partagés et briefs écrits.",ct:"Contact",cd:"Envoyez un bref descriptif, nous répondrons par e-mail.",fn:"Nom",fe:"E-mail",fm:"Description du projet",fs:"Envoyer par e-mail",fx:"Veuillez remplir tous les champs avec un e-mail valide.",fo:"Votre application de messagerie s’ouvre avec le message prêt à envoyer.",ot:"Écosystème mondial",od:"Dix sites web reliés, chacun avec sa propre vocation.",cur:"Site actuel",d1:"Vietnam",d2:"International",d3:"Organisation",d4:"Statut",d5:"Annuaire",d6:"Tarifs",d7:"Technique",d8:"Applications",d9:"Notre histoire",d10:"Produits",rv:"Certaines traductions sont en attente de relecture éditoriale.",rt:"© Tết Pro Software · 30 Phan Đình Phùng, Ba Đình, Hanoï (à vérifier)"},
+"zh-Hant":{sk:"跳至內容",n1:"解決方案",n2:"產品",n3:"技術",n4:"公司",n5:"生態系",cta:"洽談專案",th:"切換主題",lg:"語言",h1:"為數位轉型打造實用的軟體。",sub:"客製化軟體、企業應用與技術整合,以清晰、協作的流程交付。",b1:"探索解決方案",b2:"認識我們的生態系",st:"解決方案",s1:"客製化軟體開發",s2:"企業管理軟體",s3:"網頁與行動應用",s4:"雲端與 DevOps",s5:"API 整合",s6:"新興技術探索",tt:"技術",td:"可依各專案需求研究或實作的方向。",tn:"這些是探索性方向,並非已完成的商業產品。",et:"合作模式",e1:"需求探索",e2:"規劃",e3:"設計",e4:"開發",e5:"測試",e6:"交付與支援",gt:"全球協作",gd:"我們以線上方式工作,可透過視訊會議、共享文件與書面需求與國際團隊討論專案。",ct:"聯絡我們",cd:"請寄送簡短需求,我們將以電子郵件回覆。",fn:"姓名",fe:"電子郵件",fm:"專案簡介",fs:"以電子郵件傳送",fx:"請填寫所有欄位並輸入有效的電子郵件。",fo:"正在開啟您的郵件應用程式,內容已備妥可傳送。",ot:"全球生態系",od:"十個互相連結的網站,各有其用途。",cur:"目前網站",d1:"越南",d2:"國際",d3:"組織",d4:"狀態",d5:"名錄",d6:"價格",d7:"技術",d8:"應用程式",d9:"品牌故事",d10:"產品",rv:"部分翻譯尚待編輯審閱。",rt:"© Tết Pro Software · 河內巴亭郡 30 Phan Đình Phùng(待查證)"},
+th:{sk:"ข้ามไปยังเนื้อหา",n1:"โซลูชัน",n2:"ผลิตภัณฑ์",n3:"เทคโนโลยี",n4:"บริษัท",n5:"ระบบนิเวศ",cta:"พูดคุยโครงการ",th:"สลับธีม",lg:"ภาษา",h1:"พัฒนาซอฟต์แวร์ที่ใช้งานได้จริงเพื่อการเปลี่ยนผ่านสู่ดิจิทัล",sub:"ซอฟต์แวร์ตามความต้องการ แอปพลิเคชันสำหรับธุรกิจ และการเชื่อมต่อเทคโนโลยี ส่งมอบด้วยกระบวนการที่ชัดเจนและทำงานร่วมกัน",b1:"ดูโซลูชัน",b2:"สำรวจระบบนิเวศของเรา",st:"โซลูชัน",s1:"พัฒนาซอฟต์แวร์ตามความต้องการ",s2:"ซอฟต์แวร์บริหารจัดการธุรกิจ",s3:"เว็บและแอปมือถือ",s4:"คลาวด์และ DevOps",s5:"การเชื่อมต่อ API",s6:"สำรวจเทคโนโลยีใหม่",tt:"เทคโนโลยี",td:"แนวทางที่สามารถศึกษาหรือนำไปใช้ได้ตามความต้องการของแต่ละโครงการ",tn:"เป็นแนวทางเชิงสำรวจ ไม่ใช่ผลิตภัณฑ์เชิงพาณิชย์ที่เสร็จสมบูรณ์",et:"รูปแบบการทำงาน",e1:"สำรวจความต้องการ",e2:"วางแผน",e3:"ออกแบบ",e4:"พัฒนา",e5:"ทดสอบ",e6:"ส่งมอบและสนับสนุน",gt:"การทำงานร่วมกันระดับสากล",gd:"เราทำงานออนไลน์ และพูดคุยโครงการกับทีมต่างประเทศได้ผ่านวิดีโอคอล เอกสารที่แชร์ร่วมกัน และบรีฟเป็นลายลักษณ์อักษร",ct:"ติดต่อ",cd:"ส่งสรุปโครงการสั้น ๆ แล้วเราจะตอบกลับทางอีเมล",fn:"ชื่อ",fe:"อีเมล",fm:"รายละเอียดโครงการ",fs:"ส่งทางอีเมล",fx:"กรุณากรอกข้อมูลให้ครบและใช้อีเมลที่ถูกต้อง",fo:"กำลังเปิดแอปอีเมลพร้อมข้อความที่เตรียมไว้",ot:"ระบบนิเวศระดับโลก",od:"เว็บไซต์ที่เชื่อมโยงกันสิบแห่ง แต่ละแห่งมีวัตถุประสงค์เฉพาะ",cur:"เว็บไซต์ปัจจุบัน",d1:"เวียดนาม",d2:"นานาชาติ",d3:"องค์กร",d4:"สถานะ",d5:"ไดเรกทอรี",d6:"ราคา",d7:"เทคนิค",d8:"แอป",d9:"เรื่องราวของเรา",d10:"ผลิตภัณฑ์",rv:"การแปลบางส่วนรอการตรวจทานจากบรรณาธิการ",rt:"© Tết Pro Software · 30 Phan Đình Phùng, Ba Đình, ฮานอย (รอตรวจสอบ)"},
+hi:{sk:"सामग्री पर जाएँ",n1:"समाधान",n2:"उत्पाद",n3:"प्रौद्योगिकी",n4:"कंपनी",n5:"इकोसिस्टम",cta:"प्रोजेक्ट पर चर्चा करें",th:"थीम बदलें",lg:"भाषा",h1:"डिजिटल रूपांतरण के लिए व्यावहारिक सॉफ़्टवेयर का निर्माण।",sub:"कस्टम सॉफ़्टवेयर, व्यावसायिक एप्लिकेशन और तकनीकी एकीकरण — स्पष्ट और सहयोगी प्रक्रिया के साथ।",b1:"समाधान देखें",b2:"हमारा इकोसिस्टम जानें",st:"समाधान",s1:"कस्टम सॉफ़्टवेयर विकास",s2:"व्यवसाय प्रबंधन सॉफ़्टवेयर",s3:"वेब और मोबाइल एप्लिकेशन",s4:"क्लाउड और DevOps",s5:"API एकीकरण",s6:"उभरती प्रौद्योगिकियों की खोज",tt:"प्रौद्योगिकी",td:"ऐसे क्षेत्र जिन पर प्रत्येक प्रोजेक्ट की आवश्यकता के अनुसार शोध या क्रियान्वयन किया जा सकता है।",tn:"ये अन्वेषणात्मक दिशाएँ हैं, पूर्ण व्यावसायिक उत्पाद नहीं।",et:"सहयोग मॉडल",e1:"डिस्कवरी",e2:"योजना",e3:"डिज़ाइन",e4:"विकास",e5:"परीक्षण",e6:"डिलीवरी और सहायता",gt:"वैश्विक सहयोग",gd:"हम ऑनलाइन काम करते हैं और वीडियो कॉल, साझा दस्तावेज़ों तथा लिखित ब्रीफ़ के माध्यम से अंतरराष्ट्रीय टीमों के साथ प्रोजेक्ट पर चर्चा कर सकते हैं।",ct:"संपर्क",cd:"संक्षिप्त ब्रीफ़ भेजें, हम ईमेल से उत्तर देंगे।",fn:"नाम",fe:"ईमेल",fm:"प्रोजेक्ट विवरण",fs:"ईमेल से भेजें",fx:"कृपया सभी फ़ील्ड भरें और मान्य ईमेल दें।",fo:"आपका ईमेल ऐप संदेश के साथ खुल रहा है।",ot:"वैश्विक इकोसिस्टम",od:"दस जुड़ी हुई वेबसाइटें, प्रत्येक का अपना उद्देश्य।",cur:"वर्तमान साइट",d1:"वियतनाम",d2:"अंतरराष्ट्रीय",d3:"संगठन",d4:"स्थिति",d5:"निर्देशिका",d6:"मूल्य",d7:"तकनीकी",d8:"ऐप",d9:"हमारी कहानी",d10:"उत्पाद",rv:"कुछ अनुवाद संपादकीय समीक्षा के लिए लंबित हैं।",rt:"© Tết Pro Software · 30 Phan Đình Phùng, Ba Đình, हनोई (सत्यापन लंबित)"},
+de:{sk:"Zum Inhalt springen",n1:"Lösungen",n2:"Produkte",n3:"Technologie",n4:"Unternehmen",n5:"Ökosystem",cta:"Projekt besprechen",th:"Design wechseln",lg:"Sprache",h1:"Praxisnahe Software für die digitale Transformation.",sub:"Individuelle Software, Unternehmensanwendungen und Technologieintegration – umgesetzt in einem klaren, partnerschaftlichen Prozess.",b1:"Lösungen entdecken",b2:"Unser Ökosystem entdecken",st:"Lösungen",s1:"Individuelle Softwareentwicklung",s2:"Unternehmensverwaltungssoftware",s3:"Web- und Mobile-Anwendungen",s4:"Cloud und DevOps",s5:"API-Integration",s6:"Erkundung neuer Technologien",tt:"Technologie",td:"Themen, die wir je nach Projektbedarf untersuchen oder umsetzen können.",tn:"Dies sind explorative Richtungen, keine fertigen kommerziellen Produkte.",et:"Zusammenarbeit",e1:"Discovery",e2:"Planung",e3:"Design",e4:"Entwicklung",e5:"Tests",e6:"Übergabe und Support",gt:"Globale Zusammenarbeit",gd:"Wir arbeiten online und besprechen Projekte mit internationalen Teams per Videocall, geteilten Dokumenten und schriftlichen Briefings.",ct:"Kontakt",cd:"Senden Sie ein kurzes Briefing, wir antworten per E-Mail.",fn:"Name",fe:"E-Mail",fm:"Projektbeschreibung",fs:"Per E-Mail senden",fx:"Bitte alle Felder mit gültiger E-Mail ausfüllen.",fo:"Ihre E-Mail-App öffnet sich mit der vorbereiteten Nachricht.",ot:"Globales Ökosystem",od:"Zehn verbundene Websites mit jeweils eigenem Zweck.",cur:"Aktuelle Seite",d1:"Vietnam",d2:"International",d3:"Organisation",d4:"Status",d5:"Verzeichnis",d6:"Preise",d7:"Technik",d8:"Apps",d9:"Unsere Geschichte",d10:"Produkte",rv:"Einige Übersetzungen warten auf redaktionelle Prüfung.",rt:"© Tết Pro Software · 30 Phan Đình Phùng, Ba Đình, Hanoi (zu verifizieren)"}
+};
+const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
+let cur="en";
+const T=k=>(D[cur]&&D[cur][k])||D.en[k];
+function setLang(c){
+  if(!D[c])c="en";cur=c;
+  document.documentElement.lang=c;
+  $$("[data-i]").forEach(e=>e.textContent=T(e.dataset.i));
+  $$("[data-a]").forEach(e=>e.setAttribute("aria-label",T(e.dataset.a)));
+  $("meta[name=description]").content=T("sub");
+  $("#lang").value=c;
+  try{localStorage.setItem("tp-lang",c)}catch(e){}
+  $("#st").textContent="";
+}
+function pick(){
+  let p=new URLSearchParams(location.search).get("lang"),s=null;
+  try{s=localStorage.getItem("tp-lang")}catch(e){}
+  if(p&&D[p])return p;
+  if(s&&D[s])return s;
+  const n=(navigator.language||"en").toLowerCase();
+  if(n==="zh-tw"||n==="zh-hk"||n.startsWith("zh-hant"))return"zh-Hant";
+  if(n.startsWith("zh"))return"zh-Hans";
+  return Object.keys(D).find(k=>k.toLowerCase()===n.slice(0,2))||"en";
+}
+$("#lang").addEventListener("change",e=>setLang(e.target.value));
+/* Theme */
+const root=document.documentElement;
+try{const t=localStorage.getItem("tp-theme");if(t)root.dataset.theme=t}catch(e){}
+$("#theme").addEventListener("click",()=>{
+  const dark=root.dataset.theme?root.dataset.theme==="dark":matchMedia("(prefers-color-scheme:dark)").matches;
+  root.dataset.theme=dark?"light":"dark";
+  try{localStorage.setItem("tp-theme",root.dataset.theme)}catch(e){}
+});
+/* Contact form (client validation + mailto, no backend) */
+$("#f").addEventListener("submit",e=>{
+  e.preventDefault();
+  const n=$("#fn"),m=$("#fe"),g=$("#fm"),st=$("#st");
+  const ok=[[n,n.value.trim()],[m,/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(m.value.trim())],[g,g.value.trim()]];
+  ok.forEach(([el,v])=>el.setAttribute("aria-invalid",v?"false":"true"));
+  if(ok.some(([,v])=>!v)){st.textContent=T("fx");st.style.color="#dc2626";ok.find(([,v])=>!v)[0].focus();return}
+  st.style.color="";st.textContent=T("fo");
+  const sub=encodeURIComponent("Project inquiry — "+n.value.trim());
+  const body=encodeURIComponent(g.value.trim()+"\n\n— "+n.value.trim()+" <"+m.value.trim()+">");
+  location.href="mailto:lien-he@tetprosoftware.com?subject="+sub+"&body="+body;
+});
+setLang(pick());
+</script>
+</body>
+</html>
